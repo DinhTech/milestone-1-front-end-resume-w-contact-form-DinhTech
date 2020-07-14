@@ -93,9 +93,9 @@ HTML5 Requirements (15):
 
 ● Uses description metadata.
 
-61
-
 ● HTML is properly indented.
+
+61
 
 JavaScript Requirements (22):
 
