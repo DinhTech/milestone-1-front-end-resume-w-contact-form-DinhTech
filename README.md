@@ -23,13 +23,13 @@ Functional / General Requirements (11):
 ● Repository on Github Repository has consistent commits (not just a few commits the day before it is
 due).
 
-o Commit messages describe the code changes within the commit.
+● Commit messages describe the code changes within the commit.
 
 ● Repository has a README.md.
 
-o README.md has a Trello link and Trello is public.
+● README.md has a Trello link and Trello is public.
 
-o README.md has a citations summary.
+● README.md has a citations summary.
 
 ● Any “borrowed” code has in-line comment citations.
 
@@ -114,9 +114,9 @@ https://esprima.org/demo/validate.html
 
 ● Global variables (var) are not used, only let and const are used.
 
-o All variables are declared before being used.
+● All variables are declared before being used.
 
-o Constants are used over variables when possible.
+● Constants are used over variables when possible.
 
 ● Code is well-structured (one entry point, one exit point per code block), no returns (other than at the end
 of a method), breaks or continues are used.
