@@ -5,7 +5,7 @@ Rubric
 
 You will be evaluated on the following points. You must complete all 4 of mandatory sections to pass:
 
-Requirements Points
+Requirements:
 
 Mandatory Section
 
