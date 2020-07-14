@@ -95,7 +95,7 @@ HTML5 Requirements (15):
 
 ● HTML is properly indented.
 
-61
+Points: 61
 
 JavaScript Requirements (22):
 
@@ -157,7 +157,7 @@ Challenge / Optional Section
 
 ● A visual portfolio has been added.
 
-4
+Points: 4
 
 Total: 65
 
