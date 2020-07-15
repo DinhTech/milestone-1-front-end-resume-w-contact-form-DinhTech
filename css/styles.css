@@ -1,0 +1,11 @@
+/* 
+  Element Selectors: Selects every element on the page of matching name.
+*/
+body {
+  background-color: rgb(220, 245, 255);
+}
+header {
+  background-color: rgb(220, 245, 255);
+  display: flex;
+  justify-content: center;
+}
