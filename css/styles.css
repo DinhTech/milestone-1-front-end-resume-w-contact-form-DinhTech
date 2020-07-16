@@ -2,10 +2,10 @@
   Element Selectors: Selects every element on the page of matching name.
 */
 body {
-  background-color: rgb(220, 245, 255);
+  background-color: rgb(90, 205, 190);
 }
 header {
-  background-color: rgb(220, 245, 255);
+  background-color: rgb(90, 205, 190);
   display: flex;
   justify-content: center;
 }
@@ -17,3 +17,4 @@ footer p {
   margin-top: 20px;
   padding-top: 10px;
 }
+
