@@ -28,7 +28,7 @@
         <img src="images/DT-Logo-Design.png" alt="Logo">
       </div>
    </header>
-    <h2 class="title">Software Developer & Graphic Designer</h2>
+    <h1 class="title">Software Developer & Graphic Designer</h1>
     <main>
       <!-- Citation: Responsive menu buttons from w3schools.com 
         Link: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3 -->
@@ -314,14 +314,20 @@
         <h5>Contact Me</h5>
           <form>
             <!-- Contact Section -->
-          <p>Send me a message:</p>
-          <p><input name="Name" id="Name" placeholder="Name"></p>
-          <p><input name="Email" id="Email" placeholder="Email"></p>
-          <p><input name="Subject" id="Subject" placeholder="Subject"></p>
-          <p><input name="Message" id="Message" placeholder="Message"></p>
-            <button class="button" type="submit">
-              <em class="send message"></em> SEND MESSAGE
-                </button>
+            <p class="field">Send me a message:</p>
+            <p class="field"><label for="Name">Please enter your Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="Name"></p>
+
+            <p class="field"><label for="Email">Please enter your Email:</label>
+            <input type="text" name="Email" id="Email" placeholder="Email"></p>
+
+            <p class="field"><label for="Subject">Please enter your Subject line:</label>
+            <input type="text" name="Subject" id="Subject" placeholder="Subject"></p>
+
+            <p class="field"><label for="Message">Please enter your Message:</label>
+            <input type="text" name="Message" id="Message" placeholder="Message"></p>
+
+            <p class="field"><input type="submit" value="Submit Me!"></p>
           </form>
       </div>
     </section>
