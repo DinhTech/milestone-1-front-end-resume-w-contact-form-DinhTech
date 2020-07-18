@@ -157,4 +157,13 @@ Points: 4
 
 Total: 65
 
+Citations Summary
+
+Warren Uhrich help session. Helped with no media query.
+
+Responsive menu from buttons w3schools.com 
+Link: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3
+
+
+
 https://trello.com/b/SdNnHSoz/milestone-1-front-end-project
