@@ -45,6 +45,18 @@ a:hover {
   width: 45%;
   padding: 20px;
 }
+.social-links {
+  background-color: transparent;
+}
+.social-links:hover {
+  background-color: transparent;
+}
+.breadcrumb-links {
+  background-color: transparent;
+}
+.breadcrumb-links:hover {
+  background-color: transparent;
+}
 .right {
   float: left;
   width: 10%;
