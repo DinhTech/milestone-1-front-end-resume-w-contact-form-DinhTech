@@ -4,10 +4,10 @@ input.addEventListener("click", () =>
 {
     // https://stackoverflow.com/questions/14268796/how-do-i-send-email-with-javascript-without-opening-the-mail-client
     link = "mailto:dinh_k_thai@hotmail.com?subject=Message from "
-        +document.getElementById("Email").value
-        +"&body="+document.getElementById("Email").value;
+        +document.getElementById("Subject").value
+        +"&body="+document.getElementById("Message").value;
     window.location.href = link;
-}
+});
 
 
     

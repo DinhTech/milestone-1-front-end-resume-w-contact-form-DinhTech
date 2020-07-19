@@ -49,8 +49,7 @@ a:hover {
 }
 
 .main {
-  float: left;
-  width: 45%;
+  width: 100%;
   padding: 20px;
 }
 
@@ -151,6 +150,11 @@ input {
   text-align: center;
 }
 
+#submit {
+  padding: 8px;
+  text-decoration: none;
+}
+
 ul.breadcrumb {
   text-align: center;
   margin-top: 70px;
@@ -187,13 +191,29 @@ footer p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/*Citation: Warren Uhrich help session.*/
+/*Citation: James Grieve help session.*/
+/*For tablet and desktop*/
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 25%;
+  }
+  .main {
+    float: left;
+    width: 40%;
+  }
+  .right {
+    width: 35%;
+  }
+}
 
+/*Citation: Warren Uhrich help session.*/
+/*For desktop only*/
 @media screen and (min-width: 960px) {
   .menu {
     width: 25%;
   }
   .main {
+    float: left;
     width: 40%;
   }
   .right {
