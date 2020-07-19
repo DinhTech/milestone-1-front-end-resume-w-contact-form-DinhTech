@@ -1,17 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
 .image-container {
   text-align: center;
 }
+
 .scrollbar {
   overflow: hidden;
 }
+
 .title {
   text-align: center;
   padding: 8px;
   margin-top: 8px;
 }
+
 a {
   background-color: rgb(126, 132, 253);
   font-weight: bold;
@@ -23,15 +27,18 @@ a {
   cursor: pointer;
   border-radius: 20px;
 }
+
 a:hover {
   background-color: rgb(79, 84, 180);
 }
+
 .menu {
   float: left;
   width: 97%;
   text-align: center;
   margin-top: 8px;
 }
+
 .menu a {
   padding: 10px;
   margin: 15px;
@@ -40,44 +47,54 @@ a:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
 .main {
   float: left;
   width: 45%;
   padding: 20px;
 }
+
 .social-links {
   background-color: transparent;
 }
+
 .social-links:hover {
   background-color: transparent;
 }
+
 .breadcrumb-links {
   background-color: transparent;
 }
+
 .breadcrumb-links:hover {
   background-color: transparent;
 }
+
 .right {
   float: left;
   width: 10%;
   margin-bottom: 20px;
   text-align: center;
 }
+
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 10px;
   margin-top: 15px;
   font-size: 110%;
 }
+
 p {
   margin-bottom: 10px;
 }
+
 h1, h2, h4 {
   font-size: 160%;
   font-family: 'bauhaus';
   margin-bottom: 10px;
   margin-top: 8px;
 }
+
 h3 {
   font-size: 120%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -85,25 +102,29 @@ h3 {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 h5 {
-  text-align:center;
+  text-align: center;
   font-size: 180%;
   font-family: 'bauhaus';
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 ul {
   font-size: 20px;
   margin: 10px 0;
   list-style: square;
   padding: 0 20px;
 }
+
 label {
   display: inline-block;
   clear: left;
   width: 250px;
   text-align: right;
 }
+
 textarea {
   width: 65%;
   padding: 8px;
@@ -111,6 +132,7 @@ textarea {
   border: 1px solid rgb(0, 0, 0);
   text-align: left;
 }
+
 input {
   width: 65%;
   padding: 8px;
@@ -118,34 +140,42 @@ input {
   border: 1px solid rgb(0, 0, 0);
   text-align: left;
 }
+
 .field {
   text-align: center;
 }
+
 .send-button {
   width: 100%;
   border-radius: 7px;
   text-align: center;
 }
+
 ul.breadcrumb {
   text-align: center;
   margin-top: 70px;
 }
+
 ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
+
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: rgb(0, 0, 0);
   content: "/\00a0";
 }
+
 ul.breadcrumb li a {
   color: rgb(126, 132, 253);
   text-decoration: none;
 }
+
 ul.breadcrumb li a:hover {
   color: rgb(79, 84, 180);
 }
+
 footer p {
   font-size: 20px;
   color: #555;
@@ -156,8 +186,10 @@ footer p {
   padding-bottom: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-/*Warren Uhrich help session.*/
-@media screen and (min-width: 960px){ 
+
+/*Citation: Warren Uhrich help session.*/
+
+@media screen and (min-width: 960px) {
   .menu {
     width: 25%;
   }
