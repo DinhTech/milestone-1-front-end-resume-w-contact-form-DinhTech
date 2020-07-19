@@ -2,11 +2,11 @@ const input = document.querySelector("#submit");
    
 input.addEventListener("click", () =>
 {
-       // https://stackoverflow.com/questions/14268796/how-do-i-send-email-with-javascript-without-opening-the-mail-client
-        link = "mailto:dinh_k_thai@hotmail.com?subject=Message from"
-                 +document.getElementById("Name").value
-                 +"&body="+document.getElementById("Email").value;
-        window.location.href = link;
+    // https://stackoverflow.com/questions/14268796/how-do-i-send-email-with-javascript-without-opening-the-mail-client
+    link = "mailto:dinh_k_thai@hotmail.com?subject=Message from "
+        +document.getElementById("Email").value
+        +"&body="+document.getElementById("Email").value;
+    window.location.href = link;
 }
 
 
