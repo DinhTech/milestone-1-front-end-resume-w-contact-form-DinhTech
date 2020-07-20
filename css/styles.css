@@ -86,10 +86,16 @@ body {
 section {
   background-color: rgb(240, 240, 240);
   border-radius: 15px;
+  margin: 10px
 }
 
 p {
   margin-bottom: 10px;
+}
+
+.portfolio {
+  max-width: 100%;
+  height: auto;
 }
 
 h1, h2, h4 {
@@ -231,5 +237,9 @@ footer p {
   }
   .right {
     width: 35%;
+  }
+  .portfolio {
+    max-width: 100%;
+    height: auto;
   }
 }
