@@ -161,11 +161,16 @@ Citations Summary:
 
 Warren Uhrich help session. Helped with no media query.
 
+James Grieve help session. Helped with no media query for tablet.
+
 Responsive menu buttons from w3schools.com 
 Link: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3
 
 Breadcrumb navigation from w3schools.com
 Link: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp
+
+Email with javascript. stackoverflow.com
+Link: https://stackoverflow.com/questions/14268796/how-do-i-send-email-with-javascript-without-opening-the-mail-client
 
 
 https://trello.com/b/SdNnHSoz/milestone-1-front-end-project
