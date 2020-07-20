@@ -14,11 +14,11 @@ input.addEventListener("click", () =>
 
 //Citation: JavaScript replace() String Method to Replace Bad Words and Profanity
 //Link: https://www.youtube.com/watch?v=Mq5Fg-FZB-0
-function editReview() {
+function block() {
 	const textarea = document.getElementById("message");
-	let badwords = /feldercarb|frack|skinjob|vulgacarb/gi;
+	let swearwords = /feldercarb|frack|skinjob|vulgacarb/gi;
 	let user1 = textarea.value;
-	let user2 = user1.replace(badwords,"######");
+	let user2 = user1.replace(swearwords,"######");
 	document.getElementById("message").value = user2;
 }
-document.getElementById("submit").addEventListener("click", editReview);
+document.getElementById("submit").addEventListener("click", block);
