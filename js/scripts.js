@@ -7,7 +7,7 @@ input.addEventListener("click", () =>
     link = "mailto:dinh_k_thai@hotmail.com?subject=Message: "
         +document.getElementById("subject").value
         +"&body="+document.getElementById("message").value
-        +document.getElementById("name").value
-        +document.getElementById("email").value;
+        +"\n\n Email: "+document.getElementById("email").value
+        +"\n\n From "+document.getElementById("name").value;
         window.location.href = link;
 });
