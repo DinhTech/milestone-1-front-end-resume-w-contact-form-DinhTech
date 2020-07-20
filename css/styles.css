@@ -83,6 +83,11 @@ body {
   font-size: 110%;
 }
 
+section {
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -91,7 +96,7 @@ h1, h2, h4 {
   font-size: 160%;
   font-family: 'bauhaus';
   margin-bottom: 10px;
-  margin-top: 8px;
+  margin-top: 30px;
 }
 
 h3 {
