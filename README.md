@@ -172,5 +172,7 @@ Link: https://www.w3schools.com/howto/howto_css_breadcrumbs.asp
 Email with javascript. stackoverflow.com
 Link: https://stackoverflow.com/questions/14268796/how-do-i-send-email-with-javascript-without-opening-the-mail-client
 
+JavaScript replace() String Method to Replace Bad Words and Profanity
+Link: https://www.youtube.com/watch?v=Mq5Fg-FZB-0
 
 https://trello.com/b/SdNnHSoz/milestone-1-front-end-project
